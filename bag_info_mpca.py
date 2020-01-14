@@ -1,8 +1,7 @@
 # -*-coding:utf-8-*-
 import time
 import os
-import MySQLdb
-from mark_frames_mpca import get_mpca_mark_frames_dict
+import pymysql
 
 
 # 获取mpca_data_set目录下，bag包的数量和时长
@@ -24,7 +23,7 @@ def get_mpca_bag_info(mpca_dir):
 
 # 将mpca_data_set目录下，bag包的数量和时长写入表bag_info_mpca中
 def insert_bag_info_mpca(bag_info_list):
-    db = MySQLdb.connect("localhost", "root", "123", "grafana_bag", charset='utf8')
+    db = pymysql.connect("localhost", "root", "123", "grafana_bag", charset='utf8')
     cursor = db.cursor()
     try:
         sql1 = "select bag_num, bag_time from bag_info_mpca"

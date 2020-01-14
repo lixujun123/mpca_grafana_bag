@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 import os
 import time
-import MySQLdb
+import pymysql
 from mark_frames_mpca import read_json, convert_tag_name
 
 
@@ -59,16 +59,15 @@ def get_tag_time_info(tag_info_mpca):
 
 # 将tag_info的内容存入表tag_time_mpca中
 def insert_tag_info_mpca(tag_info):
-    db = MySQLdb.connect("localhost", "root", "123", "grafana_bag", charset='utf8')
+    db = pymysql.connect("localhost", "root", "123", "grafana_bag", charset='utf8')
     cursor = db.cursor()
-    # print(tag_info)
     try:
         sql1 = "delete from tag_time_mpca"
         cursor.execute(sql1)
         timestamps = time.time()
         for keys, values in tag_info.items():
             values /= 60
-            name = convert_tag_name(keys).encode("utf-8")
+            name = convert_tag_name(keys)
             sql2 = "insert into tag_time_mpca (timestamps, tag_name, tag_time) values (%d, %s, %d)" \
                    % (timestamps, '"{}"'.format(name), values)
             cursor.execute(sql2)

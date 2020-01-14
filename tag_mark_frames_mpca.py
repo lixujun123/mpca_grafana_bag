@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 import os
 import time
-import MySQLdb
+import pymysql
 from mark_frames_mpca import read_json, convert_tag_name
 
 
@@ -27,9 +27,6 @@ def get_tag_frames(both_folder):
         meta_file_path = os.path.join(folder, "tag_meta.json")
         camera = read_json(mate_file_path)
         camera_time = camera["total"]
-        # print("camera time")
-        # print(len(camera_time))
-        # print(camera_time)
         tag_info = read_json(meta_file_path)
         tag_frames_info = get_tag_frames_info(tag_info, camera_time)
         # print(tag_frames_info)
@@ -70,7 +67,7 @@ def get_tag_frames_info(tag_info, camera_time):
 
 # 将各种tag的送标帧数，放入表tag_mark_frames_mpca中
 def insert_tag_mark_frames(tag_frames):
-    db = MySQLdb.connect("localhost", "root", "123", "grafana_bag", charset='utf8')
+    db = pymysql.connect("localhost", "root", "123", "grafana_bag", charset='utf8')
     cursor = db.cursor()
     # print(tag_info)
     try:
@@ -78,7 +75,7 @@ def insert_tag_mark_frames(tag_frames):
         cursor.execute(sql1)
         timestamps = time.time()
         for keys, values in tag_frames.items():
-            name = convert_tag_name(keys).encode("utf-8")
+            name = convert_tag_name(keys)
             sql2 = "insert into tag_mark_frames_mpca (timestamps, tag_name, mark_frames) values (%d, %s, %d)" \
                    % (timestamps, '"{}"'.format(name), values)
             cursor.execute(sql2)

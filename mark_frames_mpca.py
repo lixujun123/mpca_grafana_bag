@@ -3,7 +3,7 @@ import os
 import json
 import time
 import MySQLdb
-
+import pymysql
 
 def read_json(json_file):
     with open(json_file) as json_data:
@@ -75,7 +75,7 @@ def get_date_mark_frames(day_dir_dict):
 
 # 将mpca中lidar的抽帧数量写入数据库表mark_frames_mpca中
 def insert_mark_frames_mpca(data_list):
-    db = MySQLdb.connect("localhost", "root", "123", "grafana_bag", charset='utf8')
+    db = pymysql.connect("localhost", "root", "123", "grafana_bag", charset='utf8')
     cursor = db.cursor()
     try:
         sql1 = "delete from mark_frames_mpca"

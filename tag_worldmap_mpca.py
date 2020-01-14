@@ -1,8 +1,7 @@
 # -*-coding:utf-8-*-
-import os
 import time
 import MySQLdb
-from mark_frames_mpca import read_json, convert_tag_name
+from mark_frames_mpca import read_json
 from tag_time_mpca import get_tag_meta_file_path
 
 
