@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="692cb649-f57f-48e2-aa4f-5b4720fa9754" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WBzpoAvfFg0p9F55JipnprEOwb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mpca_grafana_bag" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tag_time_mpca" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mpca_grafana_bag" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tag_time_mpca.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.tag_time_mpca" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="692cb649-f57f-48e2-aa4f-5b4720fa9754" name="Default Changelist" comment="" />
+      <created>1578637960062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578637960062</updated>
+      <workItem from="1578637961240" duration="8813000" />
+      <workItem from="1578981191300" duration="2447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1809" height="296" key="GridCell.Tab.0.bottom" timestamp="1578882357890">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1578882357890" />
+    <state width="1809" height="296" key="GridCell.Tab.0.center" timestamp="1578882357887">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1578882357887" />
+    <state width="1809" height="296" key="GridCell.Tab.0.left" timestamp="1578882357886">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1578882357886" />
+    <state width="1809" height="296" key="GridCell.Tab.0.right" timestamp="1578882357888">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1578882357888" />
+    <state width="1809" height="321" key="GridCell.Tab.1.bottom" timestamp="1578639295795">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="321" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1578639295795" />
+    <state width="1809" height="321" key="GridCell.Tab.1.center" timestamp="1578639295795">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="321" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1578639295795" />
+    <state width="1809" height="321" key="GridCell.Tab.1.left" timestamp="1578639295794">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="321" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1578639295794" />
+    <state width="1809" height="321" key="GridCell.Tab.1.right" timestamp="1578639295795">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="321" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1578639295795" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mpca_grafana_bag$tag_time_mpca.coverage" NAME="tag_time_mpca Coverage Results" MODIFIED="1578638579439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mpca_grafana_bag$main.coverage" NAME="main Coverage Results" MODIFIED="1578639177810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

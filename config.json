@@ -1,0 +1,243 @@
+{
+  "mpca_dir": "/home/lixujun/momenta/mpca_data_set",
+  "global_tag": {
+		"label": "全局标签",
+		"tags": [
+			{
+				"label": "高速",
+				"tag_name": "highway",
+				"category": "road_type"
+			},
+			{
+				"label": "城市快速路",
+				"tag_name": "city_expressway",
+				"category": "road_type"
+			},
+			{
+				"label": "城市",
+				"tag_name": "urban",
+				"category": "road_type"
+			},
+			{
+				"label": "郊区",
+				"tag_name": "suburb",
+				"category": "road_type"
+			},
+			{
+				"label": "园区",
+				"tag_name": "campus",
+				"category": "road_type"
+			},
+			{
+				"label": "地上停车场",
+				"tag_name": "ground_parking",
+				"category": "road_type"
+			},
+			{
+				"label": "地下停车场",
+				"tag_name": "underground_parking",
+				"category": "road_type"
+			},
+			{
+				"label": "正常光照",
+				"tag_name": "normal_light",
+				"category": "light_type"
+			},
+			{
+				"label": "逆光",
+				"tag_name": "backlighting",
+				"category": "light_type"
+			},
+			{
+				"label": "夜晚",
+				"tag_name": "night",
+				"category": "light_type"
+			},
+			{
+				"label": "正常天气",
+				"tag_name": "normal_weather",
+				"category": "weather"
+			},
+			{
+				"label": "雨天",
+				"tag_name": "rain",
+				"category": "weather"
+			},
+			{
+				"label": "雪天",
+				"tag_name": "snow",
+				"category": "weather"
+			},
+			{
+				"label": "浓雾",
+				"tag_name": "dense_fog",
+				"category": "weather"
+			}
+		]
+	},
+	"local_tag": {
+		"label": "细分标签",
+		"tags": [
+			{
+				"label": "行人",
+				"tag_name": "ped",
+				"category": "object_type"
+			},
+			{
+				"label": "自行车",
+				"tag_name": "bicycle",
+				"category": "object_type"
+			},
+			{
+				"label": "摩托车",
+				"tag_name": "motorcycle",
+				"category": "object_type"
+			},
+			{
+				"label": "小汽车",
+				"tag_name": "car",
+				"category": "object_type"
+			},
+			{
+				"label": "卡车",
+				"tag_name": "truck",
+				"category": "object_type"
+			},
+			{
+				"label": "公共汽车",
+				"tag_name": "bus",
+				"category": "object_type"
+			},
+			{
+				"label": "三轮车",
+				"tag_name": "tricycle",
+				"category": "object_type"
+			},
+			{
+				"label": "异形车",
+				"tag_name": "strange_vehicle",
+				"category": "object_type"
+			},
+			{
+				"label": "上坡",
+				"tag_name": "ramp_up",
+				"category": "road_type"
+			},
+			{
+				"label": "下坡",
+				"tag_name": "ramp_down",
+				"category": "road_type"
+			},
+			{
+				"label": "颠簸路面",
+				"tag_name": "bump",
+				"category": "road_type"
+			},
+			{
+				"label": "施工道路",
+				"tag_name": "road_work",
+				"category": "road_type"
+			},
+			{
+				"label": "路口",
+				"tag_name": "cross_road",
+				"category": "road_type"
+			},
+			{
+				"label": "阴影",
+				"tag_name": "shadow",
+				"category": "light_type"
+			},
+			{
+				"label": "隧道口",
+				"tag_name": "tunnel_exit",
+				"category": "light_type"
+			},
+			{
+				"label": "对向车",
+				"tag_name": "opposite_car",
+				"category": "other_vehicle_behavior"
+			},
+			{
+				"label": "他车静止",
+				"tag_name": "stopped",
+				"category": "other_vehicle_behavior"
+			},
+			{
+				"label": "他车转弯",
+				"tag_name": "turning",
+				"category": "other_vehicle_behavior"
+			},
+			{
+				"label": "他车急加速",
+				"tag_name": "other_vehicle_accelerate",
+				"category": "other_vehicle_behavior"
+			},
+			{
+				"label": "他车刹车",
+				"tag_name": "other_vehicle_brake",
+				"category": "other_vehicle_behavior"
+			},
+			{
+				"label": "路口横向车",
+				"tag_name": "crosswise_car",
+				"category": "other_vehicle_behavior"
+			},
+			{
+				"label": "相邻车道超车",
+				"tag_name": "overtake",
+				"category": "other_vehicle_behavior"
+			},
+			{
+				"label": "相邻车道插车",
+				"tag_name": "cut_in",
+				"category": "other_vehicle_behavior"
+			},
+			{
+				"label": "cipv开始截断",
+				"tag_name": "approaching_cipv",
+				"category": "other_vehicle_behavior"
+			},
+			{
+				"label": "cipv脱离截断",
+				"tag_name": "leaving_cipv",
+				"category": "other_vehicle_behavior"
+			},
+			{
+				"label": "自车转弯",
+				"tag_name": "turn",
+				"category": "self_driving_behavior"
+			},
+			{
+				"label": "自车掉头",
+				"tag_name": "u_turn",
+				"category": "self_driving_behavior"
+			},
+			{
+				"label": "自车急加速",
+				"tag_name": "self_car_accelerate",
+				"category": "self_driving_behavior"
+			},
+			{
+				"label": "自车急刹车",
+				"tag_name": "self_car_brake",
+				"category": "self_driving_behavior"
+			},
+			{
+				"label": "直行",
+				"tag_name": "straight",
+				"category": "self_driving_behavior"
+			},
+			{
+				"label": "换道",
+				"tag_name": "lane_change",
+				"category": "self_driving_behavior"
+			},
+			{
+				"label": "停车",
+				"tag_name": "stop",
+				"category": "self_driving_behavior"
+			}
+		]
+	}
+}
