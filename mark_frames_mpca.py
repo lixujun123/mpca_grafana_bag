@@ -2,7 +2,6 @@
 import os
 import json
 import time
-import MySQLdb
 import pymysql
 
 def read_json(json_file):
