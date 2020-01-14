@@ -1,6 +1,6 @@
 # -*-coding:utf-8-*-
 import time
-import MySQLdb
+import pymysql
 from mark_frames_mpca import read_json
 from tag_time_mpca import get_tag_meta_file_path
 
@@ -31,16 +31,13 @@ def get_tag_location_info(mpca_dir):
 
 # 将tag location信息放入表tag_worldmap_mpca中
 def insert_tag_woldmap_mpca(tag_info):
-    db = MySQLdb.connect("localhost", "root", "123", "grafana_bag", charset='utf8')
+    db = pymysql.connect("localhost", "root", "123", "grafana_bag", charset='utf8')
     cursor = db.cursor()
     try:
         sql1 = "delete from tag_worldmap_mpca"
         cursor.execute(sql1)
         timestamps = time.time()
         for tag in tag_info:
-            # print(tag[0])
-            # name = (convert_tag_name(tag[0])).encode("utf-8")
-            # print(name)
             sql2 = "insert into tag_worldmap_mpca values (%s, %s, %s, %d, %d)" \
                    % ('"{}"'.format(tag[1]), '"{}"'.format(tag[2]), '"{}"'.format(tag[0]), 1, timestamps)
             cursor.execute(sql2)
